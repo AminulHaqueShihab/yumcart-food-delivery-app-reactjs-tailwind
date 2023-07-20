@@ -13,7 +13,7 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>YumCart</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link rel="canonical" href="https://yumcart-c253a.web.app/" />
         <meta name="description" content="Food delivery website" />
       </Helmet>
       <Navbar />

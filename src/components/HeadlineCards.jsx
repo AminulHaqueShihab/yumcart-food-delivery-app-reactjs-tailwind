@@ -9,7 +9,7 @@ const HeadlineCards = () => {
                 <div className='absolute w-full h-full bg-black/50 rounded-xl text-white px-2'>
                     <p className='font-bold text-2xl px-2 pt-4'>Rise and Shine</p>
                     <p className='px-2'>Breakfast menu</p>
-                    <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
+                    <button className='border-white bg-white text-black mx-2 absolute bottom-4 hover:bg-orange-600 hover:text-white hover:border-orange-600'>Order Now</button>
                 </div>
                 <img 
                     className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl'
@@ -21,7 +21,7 @@ const HeadlineCards = () => {
                 <div className='absolute w-full h-full bg-black/50 rounded-xl text-white px-2'>
                     <p className='font-bold text-2xl px-2 pt-4'>High Noon</p>
                     <p className='px-2'>Lunch menu</p>
-                    <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
+                    <button className='border-white bg-white text-black mx-2 absolute bottom-4 hover:bg-orange-600 hover:text-white hover:border-orange-600'>Order Now</button>
                 </div>
                 <img 
                     className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl'
@@ -33,7 +33,7 @@ const HeadlineCards = () => {
                 <div className='absolute w-full h-full bg-black/50 rounded-xl text-white px-2'>
                     <p className='font-bold text-2xl px-2 pt-4'>Dinner Served</p>
                     <p className='px-2'>Dinner menu</p>
-                    <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
+                    <button className='border-white bg-white text-black mx-2 absolute bottom-4 hover:bg-orange-600 hover:text-white hover:border-orange-600'>Order Now</button>
                 </div>
                 <img 
                     className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl'

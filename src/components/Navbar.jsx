@@ -15,7 +15,7 @@ function Navbar() {
                 <div onClick={() => setNav(!nav)} className='cursor-pointer'>
                     <AiOutlineMenu size={30} />
                 </div>
-                <h1 className='text-2xl sm:text-3xl lg:text-4xl px-4 font-medium'>
+                <h1 className='text-2xl sm:text-3xl lg:text-4xl px-4 font-medium cursor-pointer'>
                     Yum<span className='font-black'>Cart</span>
                 </h1>
                 {delivery ? 
@@ -69,25 +69,25 @@ function Navbar() {
                 </h2>
                 <nav>
                     <ul className='flex flex-col p-4 ml-3 text-gray-800'>
-                        <li className='text-xl py-4 flex'>
+                        <li className='text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer'>
                             <TbTruckDelivery size={25} className='mr-4' /> Orders
                         </li>
-                        <li className='text-xl py-4 flex'>
+                        <li className='text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer'>
                             <MdFavorite size={25} className='mr-4' /> Favorites
                         </li>
-                        <li className='text-xl py-4 flex'>
+                        <li className='text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer'>
                             <FaWallet size={25} className='mr-4' /> Wallet
                         </li>
-                        <li className='text-xl py-4 flex'>
+                        <li className='text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer'>
                             <MdHelp size={25} className='mr-4' /> Help
                         </li>
-                        <li className='text-xl py-4 flex'>
+                        <li className='text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer'>
                             <AiFillTag size={25} className='mr-4' /> Promotions
                         </li>
-                        <li className='text-xl py-4 flex'>
+                        <li className='text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer'>
                             <BsFillSaveFill size={25} className='mr-4' /> Best Ones
                         </li>
-                        <li className='text-xl py-4 flex'>
+                        <li className='text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer'>
                             <FaUserFriends size={25} className='mr-4' /> Invite Friends
                         </li>
                     </ul>
